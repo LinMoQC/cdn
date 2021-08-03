@@ -1,6 +1,6 @@
 // 注意：live2d_path 参数应使用绝对路径，记得修改哦
-const live2d_path = "https://cdn.jsdelivr.net/gh/Fog-Forest/cdn@2.1.5.5/Sakura/live2d/";
-const tips_path = "https://cdn.jsdelivr.net/gh/Fog-Forest/cdn@2.1.5.5/Sakura/live2d/";
+const live2d_path = "https://cdn.jsdelivr.net/gh/Karensky/cdn@master/Sakura/live2d/";
+const tips_path = "https://cdn.jsdelivr.net/gh/Karensky/cdn@master/Sakura/live2d/";
 //const live2d_path = "";
 //const live2d_path = "/live2d-widget/";
 
@@ -35,6 +35,6 @@ Promise.all([
 	initWidget({
 		waifuPath: tips_path + "waifu-tips.min.json",
 		apiPath: "https://api.amogu.cn/api/live2d/",
-		cdnPath: "https://cdn.jsdelivr.net/gh/Fog-Forest/cdn@2.1.5.5/Sakura/live2d/api/"
+		cdnPath: "https://cdn.jsdelivr.net/gh/Karensky/cdn@master/Sakura/live2d/api/"
 	});
 });
