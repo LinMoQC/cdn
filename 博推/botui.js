@@ -27,12 +27,12 @@
     }).then(function() {
         return botui.message.bot({
             delay: 1000,
-            content: "我是 Mario，你也可以叫我蘑菇君🍄"
+            content: "我是 辰旭，你也可以叫Karen"
         })
     }).then(function() {
         return botui.message.bot({
             delay: 1000,
-            content: "一个可爱的蓝孩子~"
+            content: "一个帅气的蓝孩子~"
         })
     }).then(function() {
         return botui.action.button({
@@ -65,7 +65,7 @@
         }).then(function() {
             return botui.message.bot({
                 delay: 1500,
-                content: "是个正在学习的小运维，业余Coder"
+                content: "是个即将高考的高三🐶，就读于武汉一所水龙头学校"
             })
         }).then(function() {
             return botui.message.bot({
@@ -75,38 +75,38 @@
         }).then(function() {
             return botui.message.bot({
                 delay: 1500,
-                content: "不过还是比较熟悉主机DIY与系统环境安装部署"
+                content: "比较擅长网站SEO优化（拉倒吧你"
             })
         }).then(function() {
             return botui.message.bot({
                 delay: 1500,
-                content: "喜欢折腾，热爱折腾，目前正在计算机一道上探索中"
+                content: "喜欢尝试，一直以探索和创造为乐趣！"
             })
         }).then(function() {
             return botui.action.button({
                 delay: 1500,
                 action: [{
-                    text: "为什么叫 雾时之森 呢？ 🤔",
+                    text: "为什么叫 辰旭 呢？ 🤔",
                     value: "next"
                 }]
             })
         }).then(function(res) {
             return botui.message.bot({
                 delay: 1500,
-                content: "一次起昵称时偶然打出了这个名字，于是我就沿用了下来，你也可以简称为 “雾森”，嗯！"
+                content: "emm,之前看小说有个主角叫这个就记下来了（牛马行为"
             })
         }).then(function() {
             return botui.action.button({
                 delay: 1500,
                 action: [{
-                    text: "域名有什么含意吗？(ง •_•)ง",
+                    text: "谈过恋爱吗？(ง •_•)ง",
                     value: "next"
                 }]
             })
         }).then(function(res) {
             return botui.message.bot({
                 delay: 1500,
-                content: "emmmmm，看备案信息你就知道了_(:з」∠)_"
+                content: "emmmmm，谈过但是没有完全谈过，因为我连手都没牵过😂_(:з」∠)_"
             })
         }).then(function(res) {
             return botui.message.bot({
