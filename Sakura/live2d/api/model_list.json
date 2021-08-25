@@ -1,0 +1,12 @@
+{
+  "models": [
+    "girls-frontline/G41_2401",
+    "girls-frontline/hk416_3401",
+    "girls-frontline/sr3mp_4101"
+  ],
+  "messages": [
+    "嗨！G41 突突突~",
+    "嗨！HK416 突突突~",
+    "嗨！SR-3MP 突突突~"
+  ]
+}
