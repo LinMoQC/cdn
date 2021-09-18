@@ -1,0 +1,505 @@
+.TagsPage .item-forumStatisticsWidget {
+                display: none !important;
+ }
+@media screen and (max-width: 600px) {
+     .item-forumStatisticsWidget {
+         display: none;
+    }
+}
+body{
+background-image: linear-gradient(112.5deg, rgba(232, 232, 232, 0.03) 0%, rgba(232, 232, 232, 0.03) 2%,rgba(231, 231, 231, 0.03) 2%, rgba(231, 231, 231, 0.03) 4%,rgba(231, 231, 231, 0.03) 4%, rgba(231, 231, 231, 0.03) 11%,rgba(2, 2, 2, 0.03) 11%, rgba(2, 2, 2, 0.03) 67%,rgba(231, 231, 231, 0.03) 67%, rgba(231, 231, 231, 0.03) 90%,rgba(111, 111, 111, 0.03) 90%, rgba(111, 111, 111, 0.03) 100%),linear-gradient(157.5deg, rgba(210, 210, 210, 0.03) 0%, rgba(210, 210, 210, 0.03) 17%,rgba(254, 254, 254, 0.03) 17%, rgba(254, 254, 254, 0.03) 18%,rgba(96, 96, 96, 0.03) 18%, rgba(96, 96, 96, 0.03) 44%,rgba(159, 159, 159, 0.03) 44%, rgba(159, 159, 159, 0.03) 70%,rgba(24, 24, 24, 0.03) 70%, rgba(24, 24, 24, 0.03) 82%,rgba(16, 16, 16, 0.03) 82%, rgba(16, 16, 16, 0.03) 100%),linear-gradient(22.5deg, rgba(47, 47, 47, 0.03) 0%, rgba(47, 47, 47, 0.03) 32%,rgba(124, 124, 124, 0.03) 32%, rgba(124, 124, 124, 0.03) 40%,rgba(200, 200, 200, 0.03) 40%, rgba(200, 200, 200, 0.03) 42%,rgba(16, 16, 16, 0.03) 42%, rgba(16, 16, 16, 0.03) 64%,rgba(243, 243, 243, 0.03) 64%, rgba(243, 243, 243, 0.03) 94%,rgba(93, 93, 93, 0.03) 94%, rgba(93, 93, 93, 0.03) 100%),linear-gradient(90deg, #ffffff,#ffffff);
+
+
+.IndexPage .DiscussionListItem,
+.UserPage .DiscussionListItem,
+.DiscussionPage-discussion .DiscussionListItem{ 
+    transition: all 0.1s; 
+}
+@media (min-width: 991px){
+    .IndexPage .DiscussionList-discussions>li:not(:first-child) .DiscussionListItem:hover{ 
+        transform: scale(1.01); 
+    }
+}
+
+@media (min-width: 768px){ /* pc 端 */
+.IndexPage .DiscussionListItem-content,
+.UserPage .DiscussionListItem-content,
+.DiscussionPage-discussion .DiscussionListItem-content{ 
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-top: 10px;
+    border-radius: 8px;
+    padding-bottom: 10px;
+    border:1px solid #dbdfe6!important;
+}
+.IndexPage .Post.CommentPost,
+.UserPage .Post.CommentPost,
+.DiscussionPage-discussion .Post.CommentPost {
+    margin-top:20px;
+    border-radius: 8px;
+}
+
+.IndexPage .DiscussionListItem-info>.item-tags,
+.UserPage .DiscussionListItem-info>.item-tags {top: 23px !important;}
+.DiscussionListItem {
+    position: relative;
+    margin-right: 0;
+    padding-right: 0;
+    padding-left: 0;
+    margin-left: 0;
+    border-radius: 8px;
+    margin-top:15px;
+}
+}
+@media (min-width: 768px){
+.IndexPage .DiscussionListItem:hover {
+background-color: #fff;
+-webkit-box-shadow: 0px 8px 24px 3px rgba(84,102,134,0.1) !important;
+box-shadow: 0px 8px 24px 3px rgba(84,102,134,0.1) !important;
+}}
+/* banner */
+.WelcomeHero{color: #282828;}
+.Hero h2 { font-size: 25px; font-weight: 700;}
+.Hero { box-shadow: 0px 1px 10px 0 rgba(151,158,181,0.28); background-color: #fff; margin-bottom: 15px;}
+/*.DiscussionHero .TagsLabel .TagLabel { color: #4D698E; }*/
+.WelcomeHero .Hero-subtitle {color: #000;}
+}
+
+
+@media (min-width: 992px) {
+			.sideNav,
+			.sideNav>ul{
+				width: 190px;
+				position: sticky;
+				top: 80px;
+			}
+			.App {
+				overflow-x: visible;
+			}
+			
+			.CategoriesPage.TagsPage .sideNav,
+			.CategoriesPage.TagsPage .sideNav>ul{
+				position: unset;
+			}
+		
+			.TagsPage.TagsPage .sideNav,
+			.TagsPage.TagsPage .sideNav>ul{
+				position: unset;
+			}
+		}
+
+
+.Button .Button-label{ font-weight:600;}
+.DiscussionListItem{
+    padding: 10px;
+    margin: 10px;
+    background:#e4edf6;
+    border-radius: 10px;
+}
+.Header-title{
+    font-family: monospace;
+    font-weight: 600;
+    font-size:25px;
+}
+.DiscussionListItem:hover, .DiscussionListItem:focus {
+    background: #ffffff;
+    transition: all 300ms;
+    box-shadow:10px 10px 20px #00000020;
+}
+body{background:#f5f5f5;letter-spacing: 1px;}
+
+@media (max-width: 767px)
+{.App-content {background:#f5f5f5;}}
+
+a.scroll-up {
+    background-color: #0077e6;
+    width:30px;
+    line-height: 3.5;
+}
+
+.scroll-up:hover, .scroll-up:focus{background-color: #0077e6!important;}
+
+.DiscussionListItem-main mark {background: #ffff80 !important;}
+
+
+body,body.touch{background:#faf6f5}
+.DiscussionHero .item-title{margin:15px}
+.Scrubber-handle{background:#faf6f5}
+a.NotificationGroup-header{font-size:16px!important}
+.Notification-content{margin-right:5px;font-size:14px}
+.NotificationGroup-content li a{font-size:12px}
+.DiscussionListItem-title,.UserPage .DiscussionListItem-title{color:#313131!important}
+.UserCard.Hero.UserHero{background:#505a8b url(https://kuoxo.com/images/flarum/color-background.png)!important}
+.UserCard.Hero.UserHero .darkenBackground{background:rgba(0,0,0,0)!important}
+@media (min-width:768px){
+.IndexPage .DiscussionListItem-info>.item-tags,.UserPage .DiscussionListItem-info>.item-tags{margin-right:0;position:inherit;padding-right:10px}
+.IndexPage .DiscussionListItem-info>.item-tags,.UserPage .DiscussionListItem-info>.item-tags{transition:none;-webkit-mask-image:none}
+}
+body{font:"Helvetica Neue",Helvetica,Arial,sans-serif}
+.Alert{background:#ede8f2}
+.Alert,.Alert .Button,.Alert .Button.active,.Alert .Button.focus,.Alert .Button:active,.Alert .Button:focus,.Alert .Button:hover,.Alert a,.Alert a:hover{color:#7f6699}
+.Hero{background:#ffe305 url(https://kuoxo.com/images/flarum/color-background.png)}
+.App-header .Button,.Hero h2,.Hero-subtitle{font-weight:600}
+h3.DiscussionListItem-title{font-size:18px}
+.sideNav .Dropdown--select .Dropdown-menu>li>a{font-size:14px}
+.containerNarrow{color:#1a1a1a}
+.App-header .Button{color:#f3f0f5;font-size:16px;font-weight:700}
+.App-header .Button:hover{color:#fde4bb}
+.App-header,.App-header a{color:#fff;font-size:21px;font-weight:600;text-decoration:none}
+.DiscussionListItem-title,.UserPage .DiscussionListItem-title{color:#ededed}
+.DiscussionListItem{margin-top:15px}
+.IndexPage .DiscussionListItem:hover{background:#ede8f25c;border-left:5px dashed #ddd;margin-left:-20px}
+.PageHero-title>a,h2.DiscussionHero-title{color:#1a1a1a}
+.DiscussionList-loadMore .Button{width:80%;background:#ede8f28a}
+
+.Post-body blockquote{border:2px dotted #bac}
+.Post-body pre{border:2px dotted #aaa}
+.aaalert.aaerror .aainner{border:2px dotted #b94a48;text-align:left}
+.aaalert.aasuccess .aainner{background-color:#dff0d8;border:2px dotted #468847;text-align:left}
+.aaalert.aainfo .aainner{border:2px dotted #3a87ad;text-align:left}
+
+.Dropdown--split.itemCount1 .Button {
+    border-radius: 14px !important;
+}
+
+.Button {
+    display: inline-block;
+    margin-bottom: 0;
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer;
+    white-space: nowrap;
+    line-height: 20px;
+    padding: 8px 13px;
+    border-radius: 14px;
+    -webkit-user-select: none;
+    user-select: none;
+    color: #668099;
+    background: #e4edf6;
+    border: 0;
+}
+
+input, button, select, textarea {
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+}
+.ButtonGroup>.Button:first-child:not(:last-child):not(.Dropdown-toggle) {
+    margin-left: 0;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+.Button {
+    border: 1px solid transparent;
+    transition: background-color .4s;
+}
+
+/*鼠标小猫光标*/
+button {cursor:url(https://cdn.jsdelivr.net/gh/moezx/cdn@3.1.9/img/Sakura/cursor/work.cur),alias}
+p {cursor:url(https://cdn.jsdelivr.net/gh/moezx/cdn@3.1.9/img/Sakura/cursor/texto.cur),auto}
+a {cursor:url(https://cdn.jsdelivr.net/gh/moezx/cdn@3.1.9/img/Sakura/cursor/ayuda.cur),auto}
+a:active {cursor:url(https://cdn.jsdelivr.net/gh/moezx/cdn@3.1.9/img/Sakura/cursor/work.cur),alias}
+body {cursor:url(https://cdn.jsdelivr.net/gh/moezx/cdn@3.1.9/img/Sakura/cursor/normal.cur),auto}
+
+.Hero {
+    background: url(https://cdn.jsdelivr.net/gh/Karensky/aplayer@1.20/dist/gegege.jpg) ;
+}
+
+
+
+
+.CommentPost .Post-header>ul {
+    position: relative;
+    align-items: center;
+    background-color: rgba(228,237,246,0.9);
+    border-bottom: 1px solid #e4edf6;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+    color: #586069;
+    display: flex;
+    flex-direction: row-reverse;
+    padding: 4px 0 0 15px;
+    height: 38px;
+    justify-content: space-between;
+}
+
+.DiscussionPage article.CommentPost.Post.Post>div {
+    border: 1px solid #e4edf6;
+    border-radius: 6px;
+    position: relative;
+    background: #fff;
+    padding-bottom: 5px;
+}
+
+.CommentPost .Post-header>ul {
+    position: relative;
+    align-items: center;
+    background-color: rgba(228,237,246,0.9);
+    border-bottom: 1px solid #e4edf6;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+    color: #586069;
+    display: flex;
+    flex-direction: row-reverse;
+    padding: 4px 0 0 15px;
+    height: 38px;
+    justify-content: space-between;
+}
+
+article.CommentPost.Post.Post .Post-body {
+    padding: 0 20px;
+}
+
+PostUser-avatar, img.Avatar.PostUser-avatar, span.Avatar.PostUser-avatar {
+    vertical-align: middle;
+    position: relative;
+    left: -7px;
+    top: -2px;
+    width: 21px;
+    height: 21px;
+    font-size: 46px;
+    line-height: 23px;
+    overflow: hidden;
+}
+
+.PostUser h3, .PostUser h3 a {
+    color: #111;
+    font-weight: bold;
+    font-size: 14px;
+}
+.Post-header {
+    margin-bottom: 15px;
+    color: #667f99;
+}
+
+.Post-header>ul>li {
+    margin-top: -1px;
+}
+.Post-header>ul>li {
+    display: inline;
+    margin-right: 10px;
+}
+
+
+@media (min-width: 768px) {
+.Post {
+    padding-left: 0px;
+}
+.Post {
+    padding: 20px;
+    margin: -1px -20px;
+    transition: .2s box-shadow,top .2s,opacity .2s;
+    position: relative;
+    top: 0;
+    border-radius: 4px;
+}
+}
+
+.Hero .container {
+    padding: 30px;
+}
+
+
+@media screen and (min-width: 768px) {
+.sideNav .Dropdown--select .Dropdown-menu>li>a .Button-icon {
+    --size: 30px;
+    width: var(--size);
+    height: var(--size);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 14px;
+    box-shadow: #668099 0px 2px 5px -1px, #668099 0px 1px 3px -1px;
+    background: #e4edf6;
+    float: none;
+    margin: 0 10px 0 0;
+    border-radius: 100%;
+    transition: background-color .4s;
+}
+.sideNav .Dropdown--select .Dropdown-menu>li>a {
+    padding: 6px;
+    display: flex;
+    align-items: center;
+    border-radius: 25px;
+    transition: background-color .4s,color .4s;
+    font-size: 14px;
+}
+}
+
+
+.Hero {
+    font-family: zhanku;
+    max-width: 95%;
+    margin-right: auto;
+    margin-left: auto;
+    border-radius: 10px;
+    text-align: center;
+}
+.Hero {
+    z-index: 0;
+    margin: 15px auto 0;
+    
+    border-radius: 14px;
+}
+
+/*横幅*/
+.Hero-close {
+	display:none;
+}
+
+
+
+
+/* 页脚 */
+.site-footer {
+	margin:0;
+	/*margin-top:64px;*/
+	padding-top:30px;
+	padding-bottom:30px;
+	color:hsla(0,0%,100%,.9);
+	box-sizing:inherit;
+	text-align:center;
+	font-size:1em
+}
+@media (max-width:991px){
+    .site-footer {
+	padding-top:0px;
+    }
+}
+.site-footer p {
+	margin:0
+}
+.rm-link-color > p > a {
+	text-decoration:none;
+	color:#89898c
+}
+.rm-link-color > p > a:hover {
+	text-decoration:underline
+}
+
+/*-------- 2020-8-11--------*/
+
+
+/* 认证图标 */
+@media (max-width:767px) {
+    div#header-secondary:after {
+    content: "";
+    background: url(https://goldenjin.oss-cn-shanghai.aliyuncs.com/verified-community.svg);
+    display: block;
+    width: 19em;
+    height: 6em;
+    background-size: contain;
+    background-repeat: no-repeat;
+    text-align: center;
+    margin: 1em auto;
+    user-select: none;
+    user-drag: none;
+    -webkit-user-drag: none;
+    }
+    .item-flagrow-ad{display:none;}
+}
+/* 灯箱文字 */
+.fancybox-infobar {
+	color:#fff !important;
+}
+
+
+	
+
+/* 社区展 */
+.App-content .Pages-container {
+	width:100%;
+	max-width:100%;
+	padding-left:0px;
+	padding-right:0px;
+}
+
+/* 未读 */
+.unread .DiscussionListItem-title:after {
+	font-family:"Font Awesome 5 Free";
+	font-weight:600;
+	content:"\f111";
+	color:#667c99;
+	margin-left:0;
+	margin-top:-6px;
+	transform:scale(0.5);
+	position:absolute;
+}
+
+@media (max-width: 768px) {
+.CardsListItem {
+    display: block;
+    margin-bottom: 1.5rem;
+    background: white;
+    overflow: visible;
+    position: relative;
+    position: relative;
+    margin-right: 10px;
+    margin-left: 10px;
+    border-radius: 10px;
+}
+}
+
+.Hero .container {
+    padding: 30px;
+}
+
+.Header-title {
+    font-family: zhanku;
+    font-weight: 600;
+    font-size: 25px;
+}
+.AfruxWidgets-Widget-content {
+    font-family: zhanku;
+    background: #e4edf6;
+    padding: 12px 12px;
+    border-radius: 14px;
+    text-align: center;
+}
+
+@font-face {
+  font-family: "zhanku";
+  src: url("https://cdn.jsdelivr.net/gh/Karensky/cdn@master/Sakura/fonts/zhanku/zhanku.woff") format("woff"),
+       url("https://cdn.jsdelivr.net/gh/Karensky/cdn@master/Sakura/fonts/zhanku/zhanku.ttf") format("truetype"),
+       url("https://cdn.jsdelivr.net/gh/Karensky/cdn@master/Sakura/fonts/zhanku/zhanku.eot") format("embedded-opentype"),
+       url("https://cdn.jsdelivr.net/gh/Karensky/cdn@master/Sakura/fonts/zhanku/zhanku.svg") format("svg");
+}
+
+/*图标*/
+i.icon.fas.fa-lingmeng:before {
+    content: "";
+    background: url(https://cdn.jsdelivr.net/gh/Littlegolden/CDN/img/20200122010954_ratYearIco.svg);
+    position: relative;
+    display: block;
+    width: 25px;
+    height: 25px;
+    top: -3px;
+    left: -3px;
+}
+
+@media (max-width: 767px)
+{
+.item-forumStatisticsWidget{display:none;}
+}
+
+
+
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 50px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+i.icon.fas.fa-quanyi:before {
+    content: "";
+    background: url(https://cdn.jsdelivr.net/gh/Karensky/images@master/quanyi.svg);
+    position: relative;
+    display: block;
+    width: 25px;
+    height: 25px;
+    top: -3px;
+    left: -3px;
+}
